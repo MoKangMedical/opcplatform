@@ -1,0 +1,65 @@
+{
+  "templates": [
+    {
+      "id": "tpl001",
+      "name": "课程完成证书",
+      "description": "完成单门课程后颁发的证书",
+      "fields": [
+        {"name": "student_name", "label": "学员姓名", "type": "text"},
+        {"name": "course_name", "label": "课程名称", "type": "text"},
+        {"name": "completion_date", "label": "完成日期", "type": "date"},
+        {"name": "score", "label": "最终得分", "type": "number"},
+        {"name": "certificate_id", "label": "证书编号", "type": "text"}
+      ],
+      "design": {
+        "background_color": "#FFFFFF",
+        "primary_color": "#1E3A5F",
+        "accent_color": "#FF6B35",
+        "font_family": "Noto Sans SC"
+      }
+    },
+    {
+      "id": "tpl002",
+      "name": "学习路径完成证书",
+      "description": "完成完整学习路径后颁发的证书",
+      "fields": [
+        {"name": "student_name", "label": "学员姓名", "type": "text"},
+        {"name": "path_name", "label": "学习路径名称", "type": "text"},
+        {"name": "courses_completed", "label": "完成课程数", "type": "number"},
+        {"name": "completion_date", "label": "完成日期", "type": "date"},
+        {"name": "total_score", "label": "总平均分", "type": "number"},
+        {"name": "certificate_id", "label": "证书编号", "type": "text"}
+      ],
+      "design": {
+        "background_color": "#F8F9FA",
+        "primary_color": "#2C3E50",
+        "accent_color": "#E74C3C",
+        "font_family": "Noto Sans SC"
+      }
+    },
+    {
+      "id": "tpl003",
+      "name": "专家认证证书",
+      "description": "通过专家认证考试后颁发的证书",
+      "fields": [
+        {"name": "student_name", "label": "学员姓名", "type": "text"},
+        {"name": "certification_name", "label": "认证名称", "type": "text"},
+        {"name": "expert_name", "label": "认证专家", "type": "text"},
+        {"name": "completion_date", "label": "完成日期", "type": "date"},
+        {"name": "score", "label": "最终得分", "type": "number"},
+        {"name": "certificate_id", "label": "证书编号", "type": "text"}
+      ],
+      "design": {
+        "background_color": "#FFFBF0",
+        "primary_color": "#8B4513",
+        "accent_color": "#DAA520",
+        "font_family": "Noto Sans SC"
+      }
+    }
+  ],
+  "metadata": {
+    "total_templates": 3,
+    "version": "1.0",
+    "last_updated": "2024-01-15"
+  }
+}

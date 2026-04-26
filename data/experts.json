@@ -1,0 +1,105 @@
+{
+  "experts": [
+    {
+      "id": "e001",
+      "name": "张三",
+      "title": "一人公司创始人 & 商业顾问",
+      "expertise": ["商业模式", "公司注册", "创业辅导"],
+      "bio": "拥有10年创业经验，成功运营3家一人公司。擅长帮助创业者从0到1搭建商业模式。",
+      "courses": ["c001"],
+      "social": {
+        "twitter": "@zhangsan",
+        "linkedin": "zhangsan"
+      }
+    },
+    {
+      "id": "e002",
+      "name": "李四",
+      "title": "产品经理 & 产品顾问",
+      "expertise": ["产品设计", "MVP开发", "用户研究"],
+      "bio": "前大厂产品经理，现独立产品顾问。帮助50+创业者验证产品想法。",
+      "courses": ["c002"],
+      "social": {
+        "twitter": "@lisi",
+        "linkedin": "lisi"
+      }
+    },
+    {
+      "id": "e003",
+      "name": "王五",
+      "title": "数字营销专家",
+      "expertise": ["SEO", "内容营销", "社交媒体"],
+      "bio": "数字营销领域10年经验，曾帮助多家企业实现流量增长300%。",
+      "courses": ["c003"],
+      "social": {
+        "twitter": "@wangwu",
+        "linkedin": "wangwu"
+      }
+    },
+    {
+      "id": "e004",
+      "name": "赵六",
+      "title": "AI应用专家 & 技术顾问",
+      "expertise": ["AI工具", "自动化", "编程"],
+      "bio": "AI应用领域先驱，帮助100+个人和企业实现工作流程自动化。",
+      "courses": ["c004"],
+      "social": {
+        "twitter": "@zhaoliu",
+        "linkedin": "zhaoliu"
+      }
+    },
+    {
+      "id": "e005",
+      "name": "钱七",
+      "title": "注册会计师 & 财务顾问",
+      "expertise": ["财务管理", "税务筹划", "投资理财"],
+      "bio": "资深注册会计师，专注一人公司财务优化，帮助创业者节省税务成本。",
+      "courses": ["c005"],
+      "social": {
+        "twitter": "@qianqi",
+        "linkedin": "qianqi"
+      }
+    },
+    {
+      "id": "e006",
+      "name": "孙八",
+      "title": "商业战略顾问",
+      "expertise": ["规模化", "系统化", "品牌建设"],
+      "bio": "战略咨询背景，帮助多家一人公司实现业务规模化增长。",
+      "courses": ["c006"],
+      "social": {
+        "twitter": "@sunba",
+        "linkedin": "sunba"
+      }
+    },
+    {
+      "id": "e007",
+      "name": "周九",
+      "title": "自由职业者 & 内容创作者",
+      "expertise": ["自由职业", "内容创作", "个人品牌"],
+      "bio": "全职自由职业5年，年收入超百万。擅长帮助自由职业者建立个人品牌。",
+      "courses": ["c001", "c003"],
+      "social": {
+        "twitter": "@zhoujiu",
+        "linkedin": "zhoujiu"
+      }
+    },
+    {
+      "id": "e008",
+      "name": "吴十",
+      "title": "SaaS创业者 & 技术专家",
+      "expertise": ["SaaS产品", "技术架构", "产品增长"],
+      "bio": "连续创业者，成功打造3款SaaS产品。擅长技术选型和产品增长。",
+      "courses": ["c002", "c004"],
+      "social": {
+        "twitter": "@wushi",
+        "linkedin": "wushi"
+      }
+    }
+  ],
+  "metadata": {
+    "total_experts": 8,
+    "expertise_areas": ["商业模式", "产品设计", "数字营销", "AI应用", "财务管理", "商业战略", "自由职业", "SaaS"],
+    "last_updated": "2024-01-15"
+  }
+}
